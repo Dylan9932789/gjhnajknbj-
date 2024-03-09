@@ -214,7 +214,7 @@
 
                 expression = expression.replace(/Math.sin\(/g, 'customSin(');
                 expression = expression.replace(/Math.cos\(/g, 'customCos(');
-                expression = expression.replace(/Math.tan\(/g, 'customTan(');
+                expression = expression.replace(/Math.tg\(/g, 'customTan(');
                 expression = expression.replace(/Math.sqrt\(/g, 'customSqrt(');
 
                 var result = eval(expression);
