@@ -265,7 +265,19 @@
             }
         });
     </script>
-  
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/cnpvyndp.json"
+    trigger="hover"
+    style="width:250px;height:250px">
+</lord-icon>
+
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/axteoudt.json"
+    trigger="hover"
+    style="width:250px;height:250px">
+</lord-icon>
 <li> ВНИМАНИЕ  для Работоспособность калькулятора при выполнении функции  sin cos tg  корень из числа 
  нужно  при вписании  цифры  закрыть скобку </li>
  
