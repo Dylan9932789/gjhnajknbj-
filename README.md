@@ -6,7 +6,7 @@
    <style>
 .calculator {
   width: 25px;
-  margin: 5px auto;
+  margin: 50px auto;
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 10px;
