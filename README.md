@@ -4,52 +4,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
       <style>
-        .calculator {
-            width: 300px;
-            margin: 0 auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 10px;
-            background-color: #f9f9f9;
-        }
+      /* Базовые стили */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
 
-        .display {
-            width: 100%;
-            height: 50px;
-            margin-bottom: 10px;
-            text-align: right;
-            font-size: 24px;
-            padding: 5px;
-        }
+/* Стили для кнопок */
+.calculator button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+}
 
-        .button {
-            width: 50px;
-            height: 50px;
-            margin: 5px;
-            font-size: 18px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #fff;
-            cursor: pointer;
-        }
+/* Стили для кнопок операций */
+.calculator .operator {
+  background-color: #f39c12;
+  color: #fff;
+}
 
-        .button:hover {
-            background-color: #f0f0f0;
-        }
+/* Стили для рамки вокруг экрана */
+.calculator .screen {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: right;
+  font-size: 20px;
+}
 
-        .operation {
-            background-color: #f0f0f0;
-        }
+/* Стили для равно */
+.calculator .equal {
+  width: 100%;
+  background-color: #2ecc71;
+  color: #fff;
+}
 
-        .equal {
-            background-color: #00f;
-            color: #fff;
-        }
-
-        .clear {
-            background-color: #f00;
-            color: #fff;
-        } 
     </style>
 </head>
 <body>
