@@ -52,7 +52,6 @@
   background-color: #2ecc71;
   color: #fff;
 }
-
     </style>
 </head>
 <body>
