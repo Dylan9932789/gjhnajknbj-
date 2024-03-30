@@ -6,7 +6,7 @@
    <style>
 .calculator {
   width: 25px;
-  margin: 50px auto;
+  margin: 5px auto;
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 10px;
@@ -163,8 +163,8 @@ button:active {
         });
     </script>
 
-<h1> ВНИМАНИЕ  для Работоспособность калькулятора при выполнении 
+<li> ВНИМАНИЕ  для Работоспособность калькулятора при выполнении 
 функции  sin cos tg  корень из числа 
- нужно  при вписании  цифры  закрыть скобку </h1>
+ нужно  при вписании  цифры  закрыть скобку </li>
  
     <p>&copy; 2024 Разработчик  Dylan933 Все права защищены. | <span id="companyLink"></span></p>
