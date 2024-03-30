@@ -5,69 +5,73 @@
     <title>Инженерный Калькулятор</title>
    <style>
 .calculator {
-  width: 350px;
-  margin: 50px auto;
-  border: 2px solid #ccc;
+  width: 300px;
+  border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   background-color: #f9f9f9;
 }
 
-#display {
-  width: 10%;
+.display {
   height: 50px;
-  margin-bottom: 15px;
-  font-size: 24px;
-  padding: 5px;
-  box-sizing: border-box;
-  text-align: right;
-  border: 2px solid #ccc;
-  border-radius: 5px;
   background-color: #fff;
-}
-
-.keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-}
-
-button {
-  width: 10%;
-  height: 50px;
-  font-size: 20px;
-  background-color: #e0e0e0;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #d0d0d0;
+.button:hover {
+  background-color: #ddd;
 }
 
-button:active {
-  background-color: #ccc;
-}
-
-button.operator {
-  background-color: #f39c12;
+.operation-button {
+  background-color: #f2a154;
   color: #fff;
 }
 
-button.operator:hover {
-  background-color: #e67e22;
+.operation-button:hover {
+  background-color: #d98c42;
 }
 
-button.clear {
-  background-color: #e74c3c;
+.number-button {
+  background-color: #4caf50;
   color: #fff;
 }
 
-button.clear:hover {
-  background-color: #c0392b;
+.number-button:hover {
+  background-color: #388e3c;
+}
+
+.equal-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.equal-button:hover {
+  background-color: #1976d2;
+}
+
+.clear-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.clear-button:hover {
+  background-color: #d32f2f;
 }
     </style>
 </head>
