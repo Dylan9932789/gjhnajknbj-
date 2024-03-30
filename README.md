@@ -5,21 +5,26 @@
     <title>Инженерный Калькулятор</title>
    <style>
 .calculator {
-  width: 25px;
-  margin: 5px auto;
+  width: 250px;
+  margin: 50px auto;
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
 }
 
 #display {
   width: 10%;
-  height: 4px;
-  margin-bottom: 10px;
-  font-size: 20px;
+  height: 50px;
+  margin-bottom: 15px;
+  font-size: 24px;
   padding: 5px;
   box-sizing: border-box;
+  text-align: right;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .keys {
@@ -30,23 +35,41 @@
 
 button {
   width: 10%;
-  height: 40px;
-  font-size: 18px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  height: 50px;
+  font-size: 20px;
+  background-color: #e0e0e0;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-  background-color: #e0e0e0;
+  background-color: #d0d0d0;
 }
 
 button:active {
   background-color: #ccc;
 }
 
-  
+button.operator {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+button.operator:hover {
+  background-color: #e67e22;
+}
+
+button.clear {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+button.clear:hover {
+  background-color: #c0392b;
+}
+
     </style>
 </head>
 <body>
