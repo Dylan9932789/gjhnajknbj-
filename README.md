@@ -5,8 +5,8 @@
     <title>Инженерный Калькулятор</title>
    <style>
 .calculator {
-  width: 250px;
-  margin: 50px auto;
+  width: 25px;
+  margin: 5px auto;
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 10px;
@@ -14,8 +14,8 @@
 }
 
 #display {
-  width: 100%;
-  height: 40px;
+  width: 10%;
+  height: 4px;
   margin-bottom: 10px;
   font-size: 20px;
   padding: 5px;
@@ -29,7 +29,7 @@
 }
 
 button {
-  width: 100%;
+  width: 10%;
   height: 40px;
   font-size: 18px;
   background-color: #f0f0f0;
