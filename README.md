@@ -5,7 +5,7 @@
     <title>Инженерный Калькулятор</title>
    <style>
 .calculator {
-  width: 250px;
+  width: 350px;
   margin: 50px auto;
   border: 2px solid #ccc;
   border-radius: 5px;
@@ -15,7 +15,7 @@
 }
 
 #display {
-  width: 25%;
+  width: 10%;
   height: 50px;
   margin-bottom: 15px;
   font-size: 24px;
@@ -34,7 +34,7 @@
 }
 
 button {
-  width: 25%;
+  width: 10%;
   height: 50px;
   font-size: 20px;
   background-color: #e0e0e0;
@@ -69,7 +69,6 @@ button.clear {
 button.clear:hover {
   background-color: #c0392b;
 }
-
     </style>
 </head>
 <body>
