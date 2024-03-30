@@ -15,7 +15,7 @@
 }
 
 #display {
-  width: 10%;
+  width: 25%;
   height: 50px;
   margin-bottom: 15px;
   font-size: 24px;
@@ -34,7 +34,7 @@
 }
 
 button {
-  width: 10%;
+  width: 25%;
   height: 50px;
   font-size: 20px;
   background-color: #e0e0e0;
