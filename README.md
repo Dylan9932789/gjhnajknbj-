@@ -3,48 +3,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
-   <style>
-.calculator {
-  width: 300px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  background-color: #f9f9f9;
-}
-.display {
-  width: 100%;
-  height: 50px;
-  margin-bottom: 10px;
-  text-align: right;
-  font-size: 24px;
-  padding: 5px;
-}
-.button {
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  font-size: 18px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  cursor: pointer;
-}
-.button:hover {
-  background-color: #f0f0f0;
-}
-.operation {
-  background-color: #f0f0f0;
-}
-.equal {
-  background-color: #00f;
-  color: #fff;
-}
-.clear {
-  background-color: #f00;
-  color: #fff;
-} 
-   </style>
+      <style>
+        .calculator {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .display {
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            text-align: right;
+            font-size: 24px;
+            padding: 5px;
+        }
+
+        .button {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+        }
+
+        .operation {
+            background-color: #f0f0f0;
+        }
+
+        .equal {
+            background-color: #00f;
+            color: #fff;
+        }
+
+        .clear {
+            background-color: #f00;
+            color: #fff;
+        } 
+    </style>
 </head>
 <body>
     <input type="text" id="display" readonly>
