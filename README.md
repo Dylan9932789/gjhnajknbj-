@@ -4,150 +4,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input {
-            width: calc(10% - 20px);
-            padding: 8px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-        button {
-            display: inline-block;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            margin-top: 10px;
-            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.1s ease-in-out;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        button:active {
-            transform: translateY(1px);
-            box-shadow: none;
-        }
-        iframe {
-            width: 10%;
-            height: 50px;
-            border: 1px solid #ccc;
-            transition: height 0.5s ease-in-out;
-        }
-        .error {
-            color: red;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-        p a {
-            color: #333;
-            text-decoration: none;
-            margin-right: 10px;
-            padding: 8px 15px;
-            border: 2px solid #333;
-            border-radius: 5px;
-            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-        }
-        p a:hover {
-            background-color: #333;
-            color: #fff;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-            color: #333;
-        }
-        main {
-            border-top: 1px solid #ccc;
-            padding-top: 20px;
-            margin-top: 20px;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #666;
-        }
-        footer .error {
-            color: red;
-            font-weight: bold;
-        }
-        .controls {
-            margin-top: 10px;
-        }
-    
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
+.calculator {
+  width: 250px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-        input {
-            width: 200px;
-            font-size: 18px;
-            padding: 5px;
-            margin-bottom: 10px;
-        }
+#display {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
 
-        button {
-            font-size: 16px;
-            padding: 10px;
-            margin: 5px;
-        } <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            margin: 50px;
-            background-color: #f4f4f4;
-        }
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
 
-        input {
-            width: 240px;
-            font-size: 20px;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+button {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-        button {
-            font-size: 18px;
-            padding: 15px 20px;
-            margin: 5px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: #4caf50;
-            color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
+button:hover {
+  background-color: #e0e0e0;
+}
 
-        button:hover {
-            background-color: #45a049;
-        }
+button:active {
+  background-color: #ccc;
+}
 
-        .row {
-            display: flex;
-            justify-content: center;
-        }
-
-        .column {
-            flex: 20%;
-        }
-
-        .calculator-container {
-            max-width: 400px;
-            margin: 0 auto;
-        }
   
     </style>
 </head>
