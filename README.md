@@ -4,8 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
    <style>
-.calculator {
+   .calculator {
   width: 300px;
+  margin: 0 auto;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
@@ -13,67 +14,44 @@
 }
 
 .display {
+  width: 100%;
   height: 50px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
   margin-bottom: 10px;
   text-align: right;
+  font-size: 24px;
   padding: 5px;
-  font-size: 20px;
 }
 
 .button {
   width: 50px;
   height: 50px;
   margin: 5px;
-  background-color: #eee;
+  font-size: 18px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  background-color: #fff;
   cursor: pointer;
 }
 
 .button:hover {
-  background-color: #ddd;
+  background-color: #f0f0f0;
 }
 
-.operation-button {
-  background-color: #f2a154;
+.operation {
+  background-color: #f0f0f0;
+}
+
+.equal {
+  background-color: #00f;
   color: #fff;
 }
 
-.operation-button:hover {
-  background-color: #d98c42;
-}
-
-.number-button {
-  background-color: #4caf50;
+.clear {
+  background-color: #f00;
   color: #fff;
 }
-
-.number-button:hover {
-  background-color: #388e3c;
-}
-
-.equal-button {
-  background-color: #2196f3;
-  color: #fff;
-}
-
-.equal-button:hover {
-  background-color: #1976d2;
-}
-
-.clear-button {
-  background-color: #f44336;
-  color: #fff;
-}
-
-.clear-button:hover {
-  background-color: #d32f2f;
-}
-    </style>
+   
+   </style>
 </head>
 <body>
     <input type="text" id="display" readonly>
