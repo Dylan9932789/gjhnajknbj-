@@ -82,8 +82,7 @@
         .controls {
             margin-top: 10px;
         }
-    </style>
-    <style>
+    
         body {
             font-family: Arial, sans-serif;
             text-align: center;
