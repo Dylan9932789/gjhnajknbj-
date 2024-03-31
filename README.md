@@ -3,65 +3,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
-      <style>
-.calculator {
-  width: 300px;
-  margin: 0 auto;
-  background-color: #f3f3f3;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-}
+    <style>
+        /* Стили для калькулятора */
+        .calculator {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #f3f3f3;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+        }
 
-.calculator .display {
-  width: 100%;
-  height: 50px;
-  font-size: 24px;
-  text-align: right;
-  padding: 5px;
-  margin-bottom: 10px;
-}
+        .calculator .display {
+            width: 100%;
+            height: 50px;
+            font-size: 24px;
+            text-align: right;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
 
-.calculator .keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 5px;
-}
+        .calculator .keys {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+        }
 
-.calculator button {
-  width: 100%;
-  height: 50px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  background-color: #ccc;
-  cursor: pointer;
-}
+        .calculator button {
+            width: 100%;
+            height: 50px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ccc;
+            cursor: pointer;
+        }
 
-.calculator button:hover {
-  background-color: #bbb;
-}
+        .calculator button:hover {
+            background-color: #bbb;
+        }
 
-.calculator .operator {
-  background-color: #f5913e;
-  color: white;
-}
+        .calculator .operator {
+            background-color: #f5913e;
+            color: white;
+        }
 
-.calculator .equals {
-  background-color: #2ecc71;
-  color: white;
-}
+        .calculator .equals {
+            background-color: #2ecc71;
+            color: white;
+        }
 
-.calculator .clear {
-  background-color: #e74c3c;
-  color: white;
-}
+        .calculator .clear {
+            background-color: #e74c3c;
+            color: white;
+        }
 
-.calculator .decimal {
-  background-color: #3498db;
-  color: white;
-}
+        .calculator .decimal {
+            background-color: #3498db;
+            color: white;
+        }
 
+        /* Дополнительные стили для других элементов */
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        li {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
     </style>
 </head>
 <body>
