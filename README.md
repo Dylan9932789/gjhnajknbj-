@@ -4,54 +4,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Инженерный Калькулятор</title>
       <style>
-      /* Базовые стили */
 .calculator {
   width: 300px;
   margin: 0 auto;
-  padding: 20px;
+  background-color: #f3f3f3;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 20px;
 }
 
-/* Стили для кнопок */
-.calculator button {
-  width: 50px;
+.calculator .display {
+  width: 100%;
   height: 50px;
-  margin: 5px;
+  font-size: 24px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.calculator .keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.calculator button {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
   border: none;
   border-radius: 5px;
-  background-color: #e0e0e0;
-  color: #333;
-  font-size: 18px;
+  background-color: #ccc;
   cursor: pointer;
 }
 
-/* Стили для кнопок операций */
+.calculator button:hover {
+  background-color: #bbb;
+}
+
 .calculator .operator {
-  background-color: #f39c12;
-  color: #fff;
+  background-color: #f5913e;
+  color: white;
 }
 
-/* Стили для рамки вокруг экрана */
-.calculator .screen {
-  width: 100%;
-  height: 40px;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #fff;
-  text-align: right;
-  font-size: 20px;
-}
-
-/* Стили для равно */
-.calculator .equal {
-  width: 100%;
+.calculator .equals {
   background-color: #2ecc71;
-  color: #fff;
+  color: white;
 }
+
+.calculator .clear {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.calculator .decimal {
+  background-color: #3498db;
+  color: white;
+}
+
     </style>
 </head>
 <body>
