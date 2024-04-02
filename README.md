@@ -25,7 +25,7 @@
         }
 
         button:hover {
-            background-color: #00FFFF; /* темно-зеленый при наведении */
+            background-color: #FFFFFF; /* темно-зеленый при наведении */
         }
     </style>
 </head>
