@@ -55,11 +55,11 @@
     <button onclick="appendToDisplay('6')">6</button>
     <button onclick="appendToDisplay('*')">*</button>
     <button onclick="appendToDisplay('/')">/</button>
-    <br>
+    <br>Ы
     <button onclick="appendToDisplay('1')">1</button>
     <button onclick="appendToDisplay('2')">2</button>
     <button onclick="appendToDisplay('3')">3</button>
-    <button onclick="appendToDisplay('('">(</button>
+    <button onclick="appendToDisplay('(')">(</button>
     <button onclick="appendToDisplay(')')">)</button>
     <br>
     <button onclick="appendToDisplay('0')">0</button>
