@@ -9,7 +9,6 @@
             text-align: center;
             margin: 50px;
         }
-
         input[type="text"],
         button {
             padding: 10px;
@@ -17,13 +16,11 @@
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-
         button {
             background-color: #191970; /* зеленый цвет */
             color: #fff; /* белый текст */
             cursor: pointer;
         }
-
         button:hover {
             background-color: #00FFFF; /* темно-зеленый при наведении */
         }
@@ -147,4 +144,4 @@
 функции  sin cos tg  корень из числа 
  нужно  при вписании  цифры  закрыть скобку </li>
  
-    <p>&copy; 2024 Разработчик  Дилан933 Все права защищены.  г Вяземский| <span id="companyLink"></span></p>
+    <p>&copy; 2024 Разработчик  Дилан Все права защищены.  | <span id="companyLink"></span></p>
